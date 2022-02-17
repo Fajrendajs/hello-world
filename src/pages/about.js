@@ -1,9 +1,15 @@
-import * as React from 'react'
+import { Link } from "gatsby"
+import * as React from "react"
+import Layout from "../components/layout"
 
 const About = () => {
   return (
-    <div>about</div>
+    <main>
+      <Layout></Layout>
+      <div>about</div>
+      <Link to="/">About</Link>
+    </main>
   )
 }
 
-export default About;
+export default About
